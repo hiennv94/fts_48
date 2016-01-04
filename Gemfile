@@ -12,6 +12,8 @@ gem "devise"
 gem "bootstrap-sass", "3.2.0.0"
 gem "sdoc", "~> 0.4.0", group: :doc
 gem "cancancan"
+gem "will_paginate", "3.0.7"
+gem "bootstrap-will_paginate", "0.0.10"
 
 group :development, :test do
   gem "byebug"

@@ -12,4 +12,6 @@ class User < ActiveRecord::Base
     length: {maximum: 50}, uniqueness: true
   validates :email, length: {maximum: 255}
   validates :role, presence: true
+
+  scope :normals, -> {normal}
 end
